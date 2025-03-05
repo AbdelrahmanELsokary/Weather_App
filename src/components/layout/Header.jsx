@@ -25,7 +25,7 @@ export function Header() {
               </li>
             </ul>
           </nav>
-                <Link className=" p-3 md:text-2xl font-medium bg-[#5C93B1] rounded-3xl md:py-5 md:px-8 ">Sign up</Link>
+          <Link className=" p-3 md:text-2xl font-medium bg-[#5C93B1] rounded-3xl md:py-5 md:px-8 ">Sign up</Link>
           <button className="md:hidden" onClick={() => setisMenuOpen(!isMenuOpen)}>
             <img src="/assets/icons/menu.webp" alt="menu icon" className="md:hidden" />
           </button>
