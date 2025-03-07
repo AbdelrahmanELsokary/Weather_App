@@ -15,7 +15,7 @@ export function Header() {
           <nav>
             <ul className={`${isMenuOpen ? 'absolute right-0 top-24 w-[200px] rounded-xl bg-[#2e272749] p-4' : 'hidden'} md:flex gap-11 items-center`}>
               <li>
-                <Link className="md:text-2xl font-medium  ">Home</Link>
+                <Link className="md:text-2xl font-medium">Home</Link>
               </li>
               <li>
                 <Link className="md:text-2xl font-light ">Download App</Link>
