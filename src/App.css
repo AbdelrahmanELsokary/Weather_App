@@ -3,9 +3,12 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Poppins", sans-serif;
   background-image: url(/public/assets/images/bg.webp);
   background-repeat: no-repeat;
   background-size: cover cover;
+  background-attachment: fixed;
+
 }
