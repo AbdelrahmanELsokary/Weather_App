@@ -13,14 +13,14 @@ export function Header() {
             </Link>
           </div>
           <nav>
-            <ul className={`${isMenuOpen ? 'absolute right-0 top-24 w-[200px] rounded-xl bg-[#2e272749] p-4' : 'hidden'} md:flex gap-11 items-center`}>
-              <li>
+            <ul className={`${isMenuOpen ? 'absolute right-0 top-24 w-[200px] rounded-xl bg-slate-800 p-4' : 'hidden'} md:flex gap-11 items-center`}>
+              <li className="py-2 border-solid border-b border-red-50">
                 <Link className="md:text-2xl font-medium">Home</Link>
               </li>
-              <li>
+              <li className="py-2 border-solid border-b border-red-50">
                 <Link className="md:text-2xl font-light ">Download App</Link>
               </li>
-              <li>
+              <li className="py-2 ">
                 <Link className="md:text-2xl font-light ">Contact us</Link>
               </li>
             </ul>
