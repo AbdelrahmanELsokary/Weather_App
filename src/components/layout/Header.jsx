@@ -5,8 +5,8 @@ export function Header() {
   const [isMenuOpen, setisMenuOpen] = useState(false);
   return (
     <>
-      <header className=" py-8">
-        <div className=" w-[90%] m-auto flex items-center justify-between text-white ">
+      <header className="py-8">
+        <div className="w-[90%] m-auto flex items-center justify-between text-white ">
           <div className="logo">
             <Link to="/" className=" text-2xl md:font-semibold text-[40px] ">
               Dark Weather
